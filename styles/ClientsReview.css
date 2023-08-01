@@ -1,0 +1,139 @@
+#clientsReview {
+  max-width: 98%;
+  border-radius: 30px;
+  margin: auto;
+  padding-bottom: 130px !important;
+  background-image: linear-gradient(
+    to right top,
+    #f5e1ed,
+    #f1e1f0,
+    #ede2f3,
+    #e7e2f5,
+    #e2e3f6,
+    #dee6f9,
+    #dbe8fa,
+    #d8ebfb,
+    #d7f0fd,
+    #d8f5fd,
+    #dbfafd,
+    #dffefc
+  );
+}
+
+#clientsReview .clients_review .client_img_bg {
+  height: 300px;
+  width: 300px;
+  background-color: #fff;
+}
+.client_img {
+  height: 200px!important;
+  width: 200px!important;
+  object-fit: contain;
+}
+#clientsReview .sec_height {
+  height: 400px !important;
+}
+
+#clientsReview .carousel-indicators {
+  bottom: initial;
+  top: 100% !important;
+  z-index: 99999 !important;
+  /* background-color: #ddd !important; */
+}
+
+#clientsReview .carousel-indicators button {
+  /* background-color: red !important; */
+  width: 45px !important;
+  height: 45px !important;
+  border-radius: 100%;
+  margin: 0 10px;
+  opacity: 0.3;
+  overflow: hidden;
+  position: relative;
+}
+
+#clientsReview .carousel-indicators button.active {
+  opacity: 1;
+}
+
+#clientsReview .carousel-indicators button:nth-child(1)::after {
+  content: "";
+  width: 90%;
+  height: 90%;
+  background: url(/Clients_logo/Picture01.png);
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+#clientsReview .carousel-indicators button:nth-child(2)::after {
+  content: "";
+  width: 90%;
+  height: 90%;
+  background: url(/Clients_logo/Picture9.png);
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+#clientsReview .carousel-indicators button:nth-child(3)::after {
+  content: "";
+  width: 90%;
+  height: 90%;
+  background: url(/Clients_logo/haefa.png);
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+
+#clientsReview .Commentimg {
+  max-width: 100px;
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+
+#clientsReview .commentText {
+  font-size: 18px;
+}
+
+#clientsReview .client_name {
+  color: var(--main-color);
+}
+
+#clientsReview .border-secondary {
+  border-color: #ccc !important;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-image: none;
+  background-image: url(/client-arrow.png);
+  width: 20px;
+  height: 20px;
+  background-size: contain;
+}
+.carousel-control-next-icon {
+  transform: rotate(180deg);
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+  left: 100px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 70px;
+  height: 70px;
+  border-radius: 100%;
+  border: 1px dashed var(--main-color);
+  transition: all 0.4s;
+}
+.carousel-control-next:hover,
+.carousel-control-prev:hover {
+  background-color: #ffffff52;
+}
+.carousel-control-next {
+  left: initial;
+  right: 100px;
+}

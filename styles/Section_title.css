@@ -1,0 +1,26 @@
+.SecTitleBox {
+     position: relative;
+}
+
+.SecTitleBg {
+     font-size: 80px;
+     font-weight: 700;
+     color: #ddd;
+     display: inline-block;
+}
+.SecTitle {
+     font-size: 36px;
+     font-weight: 700;
+     color: var(--main-text-color);
+     position: absolute;
+     top: 50%;
+     left: 25px;
+     transform: translateY(-50%);
+}
+
+
+
+
+
+
+

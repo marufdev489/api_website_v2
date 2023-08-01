@@ -1,0 +1,118 @@
+.demo__Margin{
+    margin-bottom: 400px;
+}
+
+
+#technology .expertiseItem{
+    overflow-x: clip;
+}
+
+#technology .tabMenu {
+    height: 300px;
+    padding: 25px 25px 25px 70px;
+    width: 50% !important;
+    background: linear-gradient(80deg, rgba(2,84,130,1) 40%, rgba(112,159,185,1) 100%);
+}
+
+#technology .tab-content{
+    width: 50%;
+    height: 300px;
+}
+#technology .nav-link.active {
+    font-size: 25px;
+    background-color: transparent !important;
+}
+#technology .nav-link {
+    position: relative;
+    padding: 0;
+    margin-bottom: 18px;
+    font-weight: 600;
+    color: #fff;
+    text-transform: uppercase;
+    display: inline-block;
+}
+#technology .nav-item:nth-last-child(1) .nav-link{
+        margin-bottom: 0 !important;
+}
+
+#technology .tab-content .tabImgBox {
+    width: 100%;
+    height: 300px;
+}
+#technology .tab-content .tabImgBox img,
+#technology .tab-content .tabLeftBox img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+#technology .tab-content .tabRightBox {
+    width: 100%;
+    height: 300px;
+    background: linear-gradient(80deg, rgba(2,84,130,1) 40%, rgba(112,159,185,1) 100%);
+    transform: skewX(-30deg) translateX(-88px);
+    width: 140% !important;
+}
+
+.tabRightBoxContaint{
+    transform: skewX(30deg) !important;
+    /* background-color: #aaa; */
+}
+
+#technology .tab-content .tabLeftBox {
+    position: absolute;
+    right: 100%;
+    bottom: 0;
+    width: 100%;
+    height: 300px;
+    background-color: #aaa;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* #technology .nav-link::after {
+    content: "";
+    display: inline-block;
+    width: 15px;
+    height: 13px;
+    background-color: var(--main-color);
+    -webkit-clip-path: polygon(50% 100%, 0 0, 100% 0);
+    clip-path: polygon(50% 100%, 0 0, 100% 0);
+    position: absolute;
+    top: 8px;
+    right: -7px;
+}
+
+#technology .nav-link.active::after {
+    width: 25px;
+    height: 23px;
+    top: 8px;
+    right: -12px;
+    background-color: var(--main-color);
+}
+
+#technology .nav-link.active::before {
+    content: "";
+    display: inline-block;
+    width: 44px;
+    height: 41px;
+    background-color: RGBA(2, 84, 130, 0.15);
+    -webkit-clip-path: polygon(50% 100%, 0 0, 100% 0);
+    clip-path: polygon(50% 100%, 0 0, 100% 0);
+    position: absolute;
+    top: 2px;
+    right: -21px;
+} */
+
+

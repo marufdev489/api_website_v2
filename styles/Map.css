@@ -1,0 +1,10 @@
+#map {
+   background-color: #ccc;
+}
+#map iframe{
+        height: 500px;
+        width: 500px;
+        border-radius: 100%;
+        overflow: hidden;
+        background-color: #aaa !important;
+}

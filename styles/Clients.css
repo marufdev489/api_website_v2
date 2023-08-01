@@ -1,0 +1,59 @@
+.clients .slick-prev:before,
+.clients .slick-next:before {
+   content: "" !important;
+   display: block;
+   width: 18px;
+   height: 18px;
+   transform: translateX(16px);
+   background-image: url(../public/client-arrow.png);
+   background-repeat: no-repeat;
+   background-size: contain;
+   background-position: center;
+   transition: all .3s ease-in-out;
+}
+.trusted_by {
+   font-size: 30px;
+}
+
+.clients .slick-next,
+.clients .slick-prev {
+   font-size: 0;
+   line-height: 0;
+   position: absolute;
+   top: calc(100% + 35px);
+   right: 30px;
+   transform: rotate(180deg);
+   cursor: pointer;
+   color: transparent;
+   border: none;
+   outline: none; 
+   background: rgba(var(--r), var(--g), var(--b), 0.1);
+   width: 50px;
+   height: 50px;
+   border-radius: 100px;
+   transition: all 0.3s ease-in-out;
+}
+.clients .slick-prev{
+  transform: rotate(0deg);
+  left: calc(100% - 150px);
+}
+
+.clients .slick-next:hover,
+.clients .slick-prev:hover{
+  background: rgba(var(--r), var(--g), var(--b), 0.7);
+}
+
+.clients .slick-prev:hover:before,
+.clients .slick-next:hover:before{
+  filter: brightness(0) invert(1);
+}
+
+.logo_size{
+   height: 100px;
+   width: 100px;
+   object-fit: contain;
+}
+.client_logos{
+   width: 170px;
+   height: 120px;
+}

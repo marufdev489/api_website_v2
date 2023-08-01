@@ -1,0 +1,33 @@
+
+.youWillGetBox {
+   gap: 50px;
+   justify-content: space-between;
+   position: relative;
+}
+
+.youWillGetItems {
+   text-align: left;
+}
+
+.youWillGetSerial {
+   display: inline-block;
+   width: 50px;
+   /* background-color: #ddd; */
+   color: var(--main-color);
+   line-height: 55px;
+   font-weight: 600;
+   font-size: 18px;
+   flex-shrink: 0;
+}
+
+.youWillGetItems p{
+   font-size: 14px;
+}
+
+.youWillGetItems{
+   width: 100%;
+   /* background-color: #aaa; */
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+}

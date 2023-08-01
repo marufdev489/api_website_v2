@@ -1,0 +1,19 @@
+
+#mission{
+     position: relative;
+     background-color: #fff;
+}
+.missionBg{
+     width: 45%;
+     height: 500px;
+     background-position: left bottom !important;
+     background-repeat: no-repeat !important;
+     background-size: 650px !important;
+     position: absolute;
+     left: 0;
+     bottom: -1px;
+}
+
+.missionImg{
+     height: 400px;
+}

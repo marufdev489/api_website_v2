@@ -1,0 +1,13 @@
+#cooperation {
+   background-color: #999;
+}
+.cooperationimg {
+   width: 100% !important;
+}
+
+#cooperation > .container .SecTitle {
+   color: #fff;
+}
+#cooperation > .container .SecTitleBg {
+   color: #ffffff17 !important;
+}
