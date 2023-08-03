@@ -17,10 +17,15 @@
    padding: 25px 25px 25px 200px;
    width: calc(62% + 9px);
    transform: skewX(-30deg) translateX(-100px);
-   background: linear-gradient(80deg,rgba(2, 84, 130, 1) 40%,rgba(112, 159, 185, 1) 100%);
+   /* background: linear-gradient(80deg,rgba(2, 84, 130, 1) 40%,rgba(112, 159, 185, 1) 100%); */
+   background: linear-gradient(
+      80deg,
+      rgba(170, 170, 170, 1) 0%,
+      rgba(238, 238, 238, 1) 100%
+   );
 }
-#technology .tabMenu{
-    transform: skewX(30deg);
+#technology .tabMenu {
+   transform: skewX(30deg);
 }
 
 #technology .tab-content {
@@ -38,7 +43,7 @@
    margin-bottom: 7px;
    font-size: 16px;
    font-weight: 600;
-   color: #fff;
+   color: var(--main-color);
    text-transform: uppercase;
    display: inline-block;
    transition: all 0.3s;
@@ -49,7 +54,7 @@
    display: inline-block;
    width: 13px;
    height: 11px;
-   background-color: #fff;
+   background-color: var(--main-color);
    -webkit-clip-path: polygon(50% 100%, 0 0, 100% 0);
    clip-path: polygon(50% 100%, 0 0, 100% 0);
    position: absolute;
@@ -71,36 +76,36 @@
    position: relative;
 }
 #technology .tab-content .tabRight_imgBox::after,
-#technology .tab-content .tabRightBox::after{
-    content: '';
-    display: inline-block;
-    width: 30px;
-    height: 100%;
-    background-color: hsla(0,0%,100%,.7);
-    position: absolute;
-    top: 0;
-    left: -2px;
-    z-index: 5;
-    backdrop-filter: blur(3px);
+#technology .tab-content .tabRightBox::after {
+   content: "";
+   display: inline-block;
+   width: 30px;
+   height: 100%;
+   background-color: hsla(0, 0%, 100%, 0.7);
+   position: absolute;
+   top: 0;
+   left: -2px;
+   z-index: 5;
+   backdrop-filter: blur(3px);
 }
-#technology .tab-content .tabRightBox::after{
-    left: -30px;
+#technology .tab-content .tabRightBox::after {
+   left: -30px;
 }
 #technology .tab-content .tabRight_imgBox::before,
-#technology .tab-content .tabRightBox::before{
-    content: '';
-    display: inline-block;
-    width: 58px;
-    height: 100%;
-    background-color: hsla(0,0%,100%,.5);
-    position: absolute;
-    top: 0;
-    left: -2px;
-    z-index: 4;
-    backdrop-filter: blur(3px);
+#technology .tab-content .tabRightBox::before {
+   content: "";
+   display: inline-block;
+   width: 58px;
+   height: 100%;
+   background-color: hsla(0, 0%, 100%, 0.5);
+   position: absolute;
+   top: 0;
+   left: -2px;
+   z-index: 4;
+   backdrop-filter: blur(3px);
 }
-#technology .tab-content .tabRightBox::before{
-    left: -60px;
+#technology .tab-content .tabRightBox::before {
+   left: -60px;
 }
 
 #technology .tab-content .tabRight_imgBox img {
@@ -123,8 +128,8 @@
    height: 320px;
    background: linear-gradient(
       80deg,
-      rgba(2, 84, 130, 1) 40%,
-      rgba(112, 159, 185, 1) 100%
+      rgba(170, 170, 170, 1) 0%,
+      rgba(238, 238, 238, 1) 100%
    );
    transform: skewX(-30deg) translateX(53px);
    width: 125%;
@@ -173,3 +178,14 @@
       transform: skewX(30deg) translateX(-89px);
    }
 }
+
+
+#technology .text-warning{
+   color: #071952 !important;
+}
+
+#technology .tabRightBoxContaint{
+   color: #071952 !important;
+}
+
+
