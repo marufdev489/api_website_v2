@@ -12,12 +12,12 @@ const NumberFigures = () => {
             <SectionTitle titleUpDown="Numbers & Figures " />
             <div className="container">
                <div className="row align-items-center">
-                  <div className="col-lg-6">
+                  <div className="col-lg-6 col-md-6">
                      <div className="wItem">
                         <img
-                           className="welcpmeImg"
                            src="/welcome.png"
                            alt="img"
+                           className="welcpmeImg img-fluid"
                         />
                         <div className="yearBg">
                            <h1 className="">7</h1>
@@ -25,10 +25,10 @@ const NumberFigures = () => {
                         </div>
                      </div>
                   </div>
-                  <div className="col-lg-6">
+                  <div className="col-lg-6 col-md-6">
                      <div className="row gx-4 gy-4">
-                        <div className="col-md-6">
-                           <div className="numberBox p-4 rounded text-center position-relative">
+                        <div className="col-md-6 col-sm-6">
+                           <div className="numberBox p-4 py-md-5 rounded text-center position-relative">
                               <Counter1 />
                               <strong className="serialNum">/ 01.</strong>
                               <p className="text-secondary">
@@ -36,8 +36,8 @@ const NumberFigures = () => {
                               </p>
                            </div>
                         </div>
-                        <div className="col-md-6">
-                           <div className="numberBox p-4 rounded text-center position-relative">
+                        <div className="col-md-6 col-sm-6">
+                           <div className="numberBox p-4 py-md-5 rounded text-center position-relative">
                               <Counter2 />
                               <strong className="serialNum">/ 02.</strong>
                               <p className="text-secondary">
@@ -45,15 +45,15 @@ const NumberFigures = () => {
                               </p>
                            </div>
                         </div>
-                        <div className="col-md-6">
-                           <div className="numberBox p-4 rounded text-center position-relative">
+                        <div className="col-md-6 col-sm-6">
+                           <div className="numberBox p-4 py-md-5 rounded text-center position-relative">
                               <Counter3 />
                               <strong className="serialNum">/ 03.</strong>
                               <p className="text-secondary">Software Engineers</p>
                            </div>
                         </div>
-                        <div className="col-md-6">
-                           <div className="numberBox p-4 rounded text-center position-relative">
+                        <div className="col-md-6 col-sm-6">
+                           <div className="numberBox p-4 py-md-5 rounded text-center position-relative">
                               <Counter4 />
                               <strong className="serialNum">/ 04.</strong>
                               <p className="text-secondary">
